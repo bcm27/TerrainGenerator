@@ -22,7 +22,8 @@ public class generateHeightMap {
     // average offset of data between points
     private static double avgOffSetInit = 1;
 
-    private static final String PATH = "C:\\Users\\bcm27\\Desktop\\grayScale_export";
+    private static final String PATH = "E:\\Storage\\Documents\\TEMP\\grayscale_export";
+    //private static final String PATH = "C:\\Users\\bcm27\\Desktop\\grayScale_export";
     private static String fileName = "\\grayscale_map00.PNG";
 
     public generateHeightMap(int howManyMaps) {
