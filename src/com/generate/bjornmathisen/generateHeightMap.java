@@ -16,7 +16,7 @@ public class generateHeightMap {
     private static final Random RAND = new Random();
     // Size of map to generate, must be a value of (2^n+1), ie. 33, 65, 129
     // 257,1025 are fun values
-    private static final int MAP_SIZE = 1025;
+    private static final int MAP_SIZE = 33;
     // initial seed for corners of map
     private static final double SEED = ThreadLocalRandom.current().nextInt(0, 1 + 1);
     // average offset of data between points
@@ -26,6 +26,14 @@ public class generateHeightMap {
     //private static final String PATH = "C:\\Users\\bcm27\\Desktop\\grayScale_export";
     private static String fileName = "\\grayscale_map00.PNG";
 
+    public static void main(String[] args) {
+        generateHeightMap ctrl = new generateHeightMap(5);
+    }
+
+    /************************************************************************************
+     * @param a int for the number of maps to create
+     * @post creates the number of maps within the file path
+     ***********************************************************************************/
     public generateHeightMap(int howManyMaps) {
         System.out.printf("Seed: %s\nMap Size: %s\nAverage Offset: %s\n", 
                 SEED, MAP_SIZE, avgOffSetInit);
@@ -42,6 +50,10 @@ public class generateHeightMap {
         }
     }
 
+    /************************************************************************************
+     * @param requires a 2d map array of 0-1 values, and a valid file path
+     * @post creates a image file saved to path + file_name
+     ***********************************************************************************/
     public static int[] convert2Dinto1DArray(int[][] array2Convert) {
         List<Integer> list = new ArrayList<Integer>();
         for (int i = 0; i < array2Convert.length; i++) {
@@ -58,7 +70,6 @@ public class generateHeightMap {
 
         return newArray;
     }
-
 
     /*************************************************************************************
      * @param requires a 2d map array of 0-1 values, and a valid file path
@@ -141,9 +152,9 @@ public class generateHeightMap {
 
         // assigns the corners of the map values to SEED
         map[0][0] =
-        map[0][MAP_SIZE-1] =
-        map[MAP_SIZE-1][0] = 
-        map[MAP_SIZE-1][MAP_SIZE-1] = SEED;
+                map[0][MAP_SIZE-1] =
+                map[MAP_SIZE-1][0] = 
+                map[MAP_SIZE-1][MAP_SIZE-1] = SEED;
 
         // square and diamond loop start
         for(int sideLength = MAP_SIZE-1; sideLength >= 2; sideLength /=2,avgOffSet/= 2.0) {

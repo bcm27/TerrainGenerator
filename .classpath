@@ -2,5 +2,44 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="C:/Users/bcm27/Desktop/extracted/lwjgl.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bcm27/Desktop/extracted/lwjgl-assimp-natives-windows.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bcm27/Desktop/extracted/lwjgl-bgfx.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bcm27/Desktop/extracted/lwjgl-bgfx-natives-windows.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bcm27/Desktop/extracted/lwjgl-egl.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bcm27/Desktop/extracted/lwjgl-glfw.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bcm27/Desktop/extracted/lwjgl-glfw-natives-windows.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bcm27/Desktop/extracted/lwjgl-jawt.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bcm27/Desktop/extracted/lwjgl-jemalloc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bcm27/Desktop/extracted/lwjgl-jemalloc-natives-windows.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bcm27/Desktop/extracted/lwjgl-lmdb.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bcm27/Desktop/extracted/lwjgl-lmdb-natives-windows.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bcm27/Desktop/extracted/lwjgl-nanovg.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bcm27/Desktop/extracted/lwjgl-nanovg-natives-windows.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bcm27/Desktop/extracted/lwjgl-natives-windows.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bcm27/Desktop/extracted/lwjgl-nfd.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bcm27/Desktop/extracted/lwjgl-nfd-natives-windows.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bcm27/Desktop/extracted/lwjgl-nuklear.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bcm27/Desktop/extracted/lwjgl-nuklear-natives-windows.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bcm27/Desktop/extracted/lwjgl-openal.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bcm27/Desktop/extracted/lwjgl-openal-natives-windows.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bcm27/Desktop/extracted/lwjgl-opencl.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bcm27/Desktop/extracted/lwjgl-opengl.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bcm27/Desktop/extracted/lwjgl-opengles-javadoc.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bcm27/Desktop/extracted/lwjgl-opengl-natives-windows.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bcm27/Desktop/extracted/lwjgl-ovr.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bcm27/Desktop/extracted/lwjgl-ovr-natives-windows.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bcm27/Desktop/extracted/lwjgl-par.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bcm27/Desktop/extracted/lwjgl-par-natives-windows.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bcm27/Desktop/extracted/lwjgl-sse.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bcm27/Desktop/extracted/lwjgl-sse-natives-windows.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bcm27/Desktop/extracted/lwjgl-stb.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bcm27/Desktop/extracted/lwjgl-stb-natives-windows.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bcm27/Desktop/extracted/lwjgl-tinyfd.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bcm27/Desktop/extracted/lwjgl-tinyfd-natives-windows.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bcm27/Desktop/extracted/lwjgl-vulkan.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bcm27/Desktop/extracted/lwjgl-xxhash.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bcm27/Desktop/extracted/lwjgl-xxhash-natives-windows.jar"/>
+	<classpathentry kind="lib" path="C:/Users/bcm27/Desktop/extracted/steamworks4j-1.6.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
